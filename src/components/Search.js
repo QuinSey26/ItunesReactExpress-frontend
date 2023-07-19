@@ -11,7 +11,7 @@ const Search = ({ handleAddFavorite }) => {
   //Fetches the search results from the server based on the search term and media type.
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://react-express-itune-api.onrender.com/search?term=${term}&media=${media}`);
+      const response = await fetch(`/search?term=${term}&media=${media}`);
       const data = await response.json();
       setResults(data.data);
     } catch (error) {
