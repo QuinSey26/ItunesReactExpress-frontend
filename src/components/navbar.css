@@ -1,0 +1,29 @@
+/* Styles for the navbar container */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styles for the unordered list inside the navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the list items inside the navbar */
+.navbar li {
+  margin-right: 20px;
+}
+
+/* Styles for the links inside the list items */
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for the links on hover */
+.navbar li a:hover {
+  text-decoration: underline;
+}
